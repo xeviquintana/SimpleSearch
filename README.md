@@ -6,19 +6,28 @@ This project aims to solve the challenge described in [problem description](PROB
 
 This code has been successfully tested to run in `Python 3.9`, current release at the time of writing this doc is 3.9.6.
 
-You should use `virtualenv` module to install required packages.
-
 ```shell
-python3 -V  # check is 3.9.6 otherwise get it from https://www.python.org/downloads/release/python-396/ 
-python3 -m pip install virtualenv  # install virtualenv package
+python3 -V
+```
+If it's not 3.9.6 or above, get it from [python.org](https://www.python.org/downloads/release/python-396/)
+
+Make sure `pip` is available as a package manager, otherwise follow
+[these instructions](https://pip.pypa.io/en/stable/installation/) to get it up.
+
+You should use `virtualenv` module to install required packages. Let's install it:
+```
+python3 -m pip install virtualenv
 ```
 
-Steps:
+After having python 3.9.6 and having virtualenv module installed, next steps are as follow:
 
 1. Create a new virtual environment, let's call it `mypython`:
    ```shell
-   python3 -m pip virtualenv mypython  # creates a folder in your current directory named `mypython`
+   python3 -m pip virtualenv mypython
    ```
+   
+   It will create a folder in our current directory, named `mypython`.
+
 
 2. Time to activate it.
     - In Mac OS / Linux
