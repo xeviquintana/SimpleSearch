@@ -116,8 +116,8 @@ class SimpleSearch:
          rows will be hits for the given file and token:
                   token1, token2, token3
         f1.txt         1       0       1
-        f2.txt         0       1       0
-        f3.txt         1       1       1
+        f2.txt         0       1       1
+        f3.txt         0       0       1
 
         Cost of this function in time is: O(n_tokens * n_files)
         """

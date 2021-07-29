@@ -23,7 +23,7 @@ After having python 3.9.6 and having virtualenv module installed, next steps are
 
 1. Create a new virtual environment, let's call it `mypython`:
    ```shell
-   python3 -m pip virtualenv mypython
+   python3 -m virtualenv mypython
    ```
    
    It will create a folder in our current directory, named `mypython`.
@@ -54,7 +54,7 @@ After having python 3.9.6 and having virtualenv module installed, next steps are
 
    Remember to use `\` if you're in Windows as directory separator...
    ```shell
-   python3 src/simple_search.py --path samples
+   python3 src/simple_search.py --path tests/samples
    ```
 
 6. When you're done, remember to deactivate the virtualenv `mypython`:
