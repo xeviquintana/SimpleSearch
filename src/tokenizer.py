@@ -1,5 +1,5 @@
 import re
-from .regex_catalog import RegexCatalog
+from regex_catalog import RegexCatalog
 
 
 class Tokenizer:

@@ -3,10 +3,10 @@ import pandas as pd
 
 from argparse import ArgumentParser, Namespace
 from collections import defaultdict
-from .database import Database, SetDictionary
-from .regex_catalog import RegexCatalog
-from .scanner import Scanner
-from .tokenizer import Tokenizer
+from database import Database, SetDictionary
+from regex_catalog import RegexCatalog
+from scanner import Scanner
+from tokenizer import Tokenizer
 
 
 class SimpleSearch:
